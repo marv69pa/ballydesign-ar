@@ -7,12 +7,12 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 model-viewer {
-  height: 500px;
+  height: 800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -20,21 +20,19 @@ model-viewer {
 #ar-button {
   background-image: url(asset/ariconewhite.png);
   background-repeat: no-repeat;
-  background-size: 22px 26px;
-  background-position: 12px 50%;
+  background-size: 40px 46px;
+  background-position: 50% 50%;
   background-color: #FFC843;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 16px;
   white-space: nowrap;
-  bottom: 20px;
+  bottom: 16px;
   padding: 0px 16px 0px 45px;
   font-family: Roboto Regular, Helvetica Neue, sans-serif;
   font-size: 15px;
   color: #ffffff;
-  height: 36px;
-  line-height: 36px;
-  border-radius: 18px;
+  height: 60px;
+  border-radius: 50%;
   border: 0px solid #000000;
 }
 
